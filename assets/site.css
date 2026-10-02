@@ -808,6 +808,13 @@ form{background:var(--card);border:1px solid var(--card-line);border-radius:var(
 .zig-media video.t-wide{aspect-ratio:4/3}
 /* The areas band ground, retinted to the graphite of the rest of the page. */
 .s-brand{--bg:#16181C}
+/* The kit sizes the hero logo as a square; logo-dark is 1353x931, so a square box
+   leaves dead space round it. Match the box to the logo. */
+.hero-logo{aspect-ratio:1353/931}
+/* Rob's slogan, sat between the hero logo and the headline */
+.hero-slogan{font-family:var(--font-display);font-weight:800;font-style:italic;font-size:clamp(16px,2.3vw,21px);letter-spacing:.01em;color:var(--brand-lt);margin:6px 0 14px;text-shadow:0 2px 18px rgba(0,0,0,.6)}
+@media(max-width:680px){.hero-slogan{margin:4px 0 10px}}
+.foot-slogan{font-family:var(--font-display);font-weight:800;font-style:italic;color:var(--brand-lt);margin-top:10px}
 /* Rob's logo (logo-dark: white and blue, 1353x931) is a near-square lockup, not the wide wordmark the nav
    and footer slots are sized for, so it needs more room to read. */
 .brand .logo-mark{width:66px;height:48px}
