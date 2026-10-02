@@ -808,7 +808,7 @@ form{background:var(--card);border:1px solid var(--card-line);border-radius:var(
 .zig-media video.t-wide{aspect-ratio:4/3}
 /* The areas band ground, retinted to the graphite of the rest of the page. */
 .s-brand{--bg:#16181C}
-/* Rob's logo is a near-square lockup (891x640), not the wide wordmark the nav
+/* Rob's logo (logo-dark: white and blue, 1353x931) is a near-square lockup, not the wide wordmark the nav
    and footer slots are sized for, so it needs more room to read. */
 .brand .logo-mark{width:66px;height:48px}
 .foot-brand .logo-mark{width:120px;height:86px}
@@ -924,6 +924,6 @@ a.chip:hover{border-color:var(--brand-lt)}
 @media(max-width:680px){.rev-grid{grid-template-columns:1fr}}
 .rev-grid .rev-card{height:100%}
 .revcard-page{max-width:540px;margin:0 auto;text-align:center}
-.revcard-page .logo-mark{width:150px;height:108px;margin:0 auto 14px}
+.revcard-page .logo-mark{width:170px;height:118px;padding:12px;margin:0 auto 14px} /* logo-dark is white: it sits on the ink tile, as in the about section */
 .revcard-page .btn{width:100%;margin-top:16px}
 .legal-doc h2{font-size:clamp(19px,2.6vw,23px)}
