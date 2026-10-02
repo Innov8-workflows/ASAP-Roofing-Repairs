@@ -822,6 +822,12 @@ form{background:var(--card);border:1px solid var(--card-line);border-radius:var(
 @media(max-width:680px){.brand .logo-mark{width:56px;height:40px}}
 
 
+      @media(max-width:680px){
+        .gal figure:nth-child(n+6){display:block}
+        .gal figure:nth-child(n+9){display:none}
+      }
+    
+
 .why.why-ed{border-block:0}
 .why-ed-grid{display:grid;grid-template-columns:minmax(0,.92fr) minmax(0,1.08fr);gap:clamp(36px,6vw,88px);align-items:start}
 .why-ed-intro{position:sticky;top:104px}

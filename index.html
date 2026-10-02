@@ -331,12 +331,32 @@
       <h2 class="title">Recent projects</h2>
       <p class="lede">Roofs we have repaired, rebuilt and replaced across the North West.</p>
     </div>
+    <!-- Gallery (Jay, 2026-10-02: "strengthen out the gallery", assets-v2 1-8 = n1-n8).
+         Desktop, 4 columns: two big tiles, so 10 photos fill a clean 4x4 - g9 big top left,
+         four beside it, then a row and a half with n1 big on the right. Phones show the
+         first 8 (big, three pairs, big). The last three are .more: only in View all.
+         The demo embeds lighter copies to stay under its 4 MB budget; the full site
+         overrides them with sharper files from Full Site/_src/media/gallery. -->
+    <style>
+      @media(max-width:680px){
+        .gal figure:nth-child(n+6){display:block}
+        .gal figure:nth-child(n+9){display:none}
+      }
+    </style>
     <div class="gal rv" id="gal">
       <figure class="big"><img loading="lazy" src="/ASAP-Roofing-Repairs/assets/g9.webp" alt="Aerial view of a new-build street, with the ASAP Roofing van and ladders on the road below"><figcaption>New-build street, van on site</figcaption></figure>
+      <figure><img loading="lazy" src="/ASAP-Roofing-Repairs/assets/n6.webp" alt="One of the ASAP Roofing team working on a brick chimney stack with four clay pots"><figcaption>Chimney stack work</figcaption></figure>
+      <figure><img loading="lazy" src="/ASAP-Roofing-Repairs/assets/n5.webp" alt="Grey tiled roof on a red-brick end terrace, seen from the air"><figcaption>Grey tiled terrace roof</figcaption></figure>
+      <figure><img loading="lazy" src="/ASAP-Roofing-Repairs/assets/n8.webp" alt="A brick chimney stack with clay pots and a cowl, seen from the roof"><figcaption>Chimney pots and cowl</figcaption></figure>
+      <figure><img loading="lazy" src="/ASAP-Roofing-Repairs/assets/n2.webp" alt="One of the ASAP Roofing team on a ladder at the gable end of a brick house"><figcaption>On the ladder at a gable end</figcaption></figure>
+      <figure><img loading="lazy" src="/ASAP-Roofing-Repairs/assets/n4.webp" alt="A flat roof over a bay window, seen from above"><figcaption>Bay window flat roof</figcaption></figure>
       <figure><img loading="lazy" src="/ASAP-Roofing-Repairs/assets/g2.webp" alt="Grey tiled gable roof just completed, scaffolding still in place"><figcaption>Grey tiled gable roof</figcaption></figure>
-      <figure><img loading="lazy" src="/ASAP-Roofing-Repairs/assets/g5.webp" alt="A small bay roof re-tiled in red tiles"><figcaption>Bay roof re-tiled</figcaption></figure>
-      <figure><img loading="lazy" src="/ASAP-Roofing-Repairs/assets/g6.webp" alt="Flat roof over a bay window with a new edge trim"><figcaption>Bay window flat roof</figcaption></figure>
-      <figure><img loading="lazy" src="/ASAP-Roofing-Repairs/assets/g8.webp" alt="A flat roof over a bay window being re-covered"><figcaption>Flat roof re-covered</figcaption></figure>
+      <figure class="big"><img loading="lazy" src="/ASAP-Roofing-Repairs/assets/n1.webp" alt="A rear extension with a flat roof beside a grey tiled lean-to roof, seen from the air"><figcaption>Extension flat roof and lean-to</figcaption></figure>
+      <figure><img loading="lazy" src="/ASAP-Roofing-Repairs/assets/n7.webp" alt="One of the ASAP Roofing team standing on the scaffold above a grey tiled roof on a street corner"><figcaption>On the scaffold, corner roof</figcaption></figure>
+      <figure><img loading="lazy" src="/ASAP-Roofing-Repairs/assets/n3.webp" alt="Aerial view of a street of semi-detached houses, with the ASAP Roofing van parked outside and ladders up"><figcaption>Van and ladders on site</figcaption></figure>
+      <figure class="more"><img loading="lazy" src="/ASAP-Roofing-Repairs/assets/g5.webp" alt="A small bay roof re-tiled in red tiles"><figcaption>Bay roof re-tiled</figcaption></figure>
+      <figure class="more"><img loading="lazy" src="/ASAP-Roofing-Repairs/assets/g6.webp" alt="Flat roof over a bay window with a new edge trim"><figcaption>Bay window flat roof</figcaption></figure>
+      <figure class="more"><img loading="lazy" src="/ASAP-Roofing-Repairs/assets/g8.webp" alt="A flat roof over a bay window being re-covered"><figcaption>Flat roof re-covered</figcaption></figure>
     </div>
 
     <div class="work-cta rv">
